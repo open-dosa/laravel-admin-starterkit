@@ -1,4 +1,8 @@
 {
     "/client/dist/js/app.js": "/client/dist/js/app.js",
-    "/client/dist/css/style.css": "/client/dist/css/style.css"
+    "/client/dist/css/style.css": "/client/dist/css/style.css",
+    "/client/dist/js/demo/chart-area-demo.js": "/client/dist/js/demo/chart-area-demo.js",
+    "/client/dist/js/demo/chart-bar-demo.js": "/client/dist/js/demo/chart-bar-demo.js",
+    "/client/dist/js/demo/chart-pie-demo.js": "/client/dist/js/demo/chart-pie-demo.js",
+    "/client/dist/js/demo/datatables-demo.js": "/client/dist/js/demo/datatables-demo.js"
 }

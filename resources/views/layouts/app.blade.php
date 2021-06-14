@@ -20,6 +20,7 @@
     <!-- Custom styles for this template-->    
     <link href="{{ asset('resources/packages/lastgrade/cms/client/dist/css/style.css') }}" rel="stylesheet">
 
+    @stack('styles')
 </head>
 
 <body id="page-top">
@@ -97,6 +98,8 @@
 
     <!-- Custom scripts for all pages-->
     <script src="{{ asset('resources/packages/lastgrade/cms/client/dist/js/app.js') }}"></script>
+
+    @stack('scripts')
 
 </body>
 

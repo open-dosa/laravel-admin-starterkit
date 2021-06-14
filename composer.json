@@ -1,15 +1,21 @@
 {
-    "name": "lastgrade/laravel-admin-starterkit",    
+    "name": "lastgrade/laravel-sbadmin-starterkit",    
     "authors": [
         {
             "name": "thomaspaulson",
             "email": "thomas.paulson@hotmail.com"
         }
     ],
-    "require": {},
+    "require": {
+        "php": "^7.2.5|^8.0",
+        "illuminate/console": "^7.0",
+        "illuminate/filesystem": "^7.0",
+        "illuminate/support": "^7.0",        
+        "thomaspaulson/vendor-plugin": "^1.5"
+    },
     "autoload": {
 		"psr-4": {
-			"LastGrade\\CMS\\": "src/"
+			"LastGrade\\SBAdmin\\": "src/"
 		}
     },	
     "extra": {
@@ -19,5 +25,11 @@
             "client/dist/img",
             "client/dist/vendor"
         ]
-    }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/thomaspaulson/vendor-plugin"
+        }
+    ]
 }
