@@ -1,0 +1,23 @@
+{
+    "name": "lastgrade/cms",    
+    "authors": [
+        {
+            "name": "thomaspaulson",
+            "email": "thomas.paulson@hotmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+		"psr-4": {
+			"LastGrade\\CMS\\": "src/"
+		}
+    },	
+    "extra": {
+        "expose": [
+            "client/dist/css",
+            "client/dist/js",
+            "client/dist/img",
+            "client/dist/vendor"
+        ]
+    }
+}
