@@ -13,22 +13,13 @@ class CMSServiceProvider extends ServiceProvider {
 		// ], 'config');
 
         $this->publishes([
-            __DIR__.'/../resources/views' => base_path('resources/views/vendor/admin'),
+            __DIR__.'/../resources/views' => base_path('resources/views/vendor/laravel/admin'),
         ], 'views');
 
 	    $this->loadRoutesFrom(__DIR__.'/../routes/web.php');
 		
-	    $this->loadViewsFrom(__DIR__.'/../resources/views', 'admin');
-		
-	    //$this->loadMigrationsFrom(__DIR__.'/../database/migrations');
+	    $this->loadViewsFrom(__DIR__.'/../resources/views', 'admin');	
 
 	}
 	
-	public function register()
-	{
-	
-	    // $this->mergeConfigFrom(
-        //      __DIR__.'/../config/contact.php', 'contact'
-        // );
-	}
 }
