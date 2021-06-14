@@ -8,10 +8,6 @@ class CMSServiceProvider extends ServiceProvider {
 	
 	public function boot()
 	{
-        // $this->publishes([
-        //     __DIR__.'/../config/contact.php' => config_path('contact.php'),
-		// ], 'config');
-
         $this->publishes([
             __DIR__.'/../resources/views' => base_path('resources/views/vendor/laravel/admin'),
         ], 'views');

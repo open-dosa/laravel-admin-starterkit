@@ -12,8 +12,8 @@ try {
 
     require('jquery.easing')(jQuery);
 
-    //require('bootstrap');
-    //import 'bootstrap';
+    require('bootstrap');
+    
 } catch (e) {}
 
 /**
